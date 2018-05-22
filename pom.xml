@@ -30,7 +30,7 @@
         <plugin.azure.webapp.version>0.1.3</plugin.azure.webapp.version>
 
         <!-- configurable properties -->
-        <docker.image.prefix>put-your-docker-registry-url</docker.image.prefix>
+        <docker.image.prefix>acr4demo.azurecr.io</docker.image.prefix>
         <azure.app.name>todo-app-${maven.build.timestamp}</azure.app.name>
     </properties>
 
