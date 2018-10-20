@@ -1,6 +1,6 @@
 # Todo App Java On Azure
 
-This TodoList app is an Azure Java application. It provides end-to-end CRUD operation to todo list item from front-end AngularJS code. Behind the scene, todo list item data store is [Azure CosmosDB DocumentDB](https://docs.microsoft.com/en-us/azure/cosmos-db/documentdb-introduction). This application uses [Azure CosmosDB DocumentDB Spring Boot Starter](https://github.com/Microsoft/azure-spring-boot/tree/master/azure-starters/azure-documentdb-spring-boot-starter) and AngularJS to interact with Azure. This sample application provides several deployment options to deploy to Azure, pls see deployment section below. With Azure support in Spring Starters, maven plugins and Eclipse/IntelliJ plugins, Azure Java application development and deployment is effortless now.
+This TodoList app is an Azure Java application. It provides end-to-end CRUD operation to todo list item from front-end AngularJS code. Behind the scene, todo list item data store is [Azure CosmosDB DocumentDB](https://docs.microsoft.com/en-us/azure/cosmos-db/documentdb-introduction). This application uses [Azure CosmosDB] (https://github.com/Azure/azure-cosmosdb-java), [Azure DocumentDB] (https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-introduction) [Spring Boot Starter](https://github.com/Microsoft/azure-spring-boot), and AngularJS to interact with Azure. This sample application provides several deployment options to deploy to Azure, pls see deployment section below. With Azure support in Spring Starters, maven plugins and Eclipse/IntelliJ plugins, Azure Java application development and deployment is effortless now.
 
 
 ## TOC
@@ -9,7 +9,7 @@ This TodoList app is an Azure Java application. It provides end-to-end CRUD oper
 * [Create Azure Cosmos DB documentDB](#create-azure-cosmos-db-documentdb)
 * [Configuration](#configuration)
 * [Run it](#run-it)
-* [Contribution](#contribution)
+* [Contribution](#contributing)
 * Add new features
     * [Add AAD](https://github.com/Microsoft/todo-app-java-on-azure/tree/aad-start)
     * [Add KeyVault](https://github.com/Microsoft/todo-app-java-on-azure/tree/keyvault-secrets)
@@ -18,6 +18,13 @@ This TodoList app is an Azure Java application. It provides end-to-end CRUD oper
     * [Deploy to Azure Web App for Containers using Eclipse plugin](./doc/deployment/deploy-to-azure-web-app-using-eclipse-plugin.md)
     * [Deploy to Azure Container Service Kubernetes cluster using Maven plugin](./doc/deployment/deploy-to-azure-container-service-using-maven-plugin.md)
     * [Deploy to Azure Web App for Containers using Maven plugin](./doc/deployment/deploy-to-azure-web-app-using-maven-plugin.md)
+    * [Deploy to Azure Web App for Container using Jenkins](./doc/deployment/deploy-to-azure-web-app-using-jenkins.md)
+    * [Deploy to Azure Web App for Java SE applications using Jenkins](./doc/deployment/deploy-to-azure-web-app-javase-using-jenkins.md)
+    * [Deploy to Azure Web App for Tomcat using Jenkins](./doc/deployment/deploy-to-azure-web-app-tomcat-using-jenkins.md)
+    * [Deploy to Azure Container Service using Jenkins](./doc/deployment/deploy-to-azure-container-service-using-jenkins.md)
+    * [Deploy to AKS using Jenkins and Blue/Green Deployment](./doc/deployment/deploy-to-AKS-blueegreen-using-jenkins.md)
+    * [Build Docker image from git repo in Azure Container Registry then deploy to Azure Kubernetes Service using Jenkins](./doc/deployment/deploy-to-aks-with-acr-build-git-using-jenkins.md)
+    * [Build Docker image from local directory in Azure Container Registry then deploy to Azure Kubernetes Service using Jenkins](./doc/deployment/deploy-to-aks-with-acr-build-local-using-jenkins.md)
 * [Useful link](#useful-link)
 
 ## Requirements
